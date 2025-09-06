@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samtse College of Education</title>
+  <link rel="stylesheet" href="lab2.css">
+
+  <style>
+    /* Reset */
+    body, ul, li, h2, p {
+      margin: 0;
+      padding: 0;
+      font-family: "Arial", sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #333;
+    }
+
+    /* Topbar */
+    .topbar {
+      background: #004080;
+      padding: 8px 0;
+    }
+    .topbar .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 50px;
+    }
+    .topbar .nav-links li {
+      margin-left: 20px;
+    }
+    .topbar .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .topbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main navigation */
+    .main-nav {
+      display: flex;
+      align-items: center;
+      padding: 15px 50px;
+      background: #fff;
+      border-bottom: 2px solid #ddd;
+    }
+    .logo-container {
+      flex: 1;
+    }
+    .logo {
+      width: 150px;
+      height: auto;
+    }
+    .nav-section {
+      margin-left: 30px;
+      text-align: center;
+    }
+    .nav-section a {
+      display: block;
+      font-weight: bold;
+      text-decoration: none;
+      color: #004080;
+    }
+    .nav-section p {
+      font-size: 12px;
+      color: #555;
+    }
+    .btn-red {
+      background: #cc0000;
+      color: #fff !important;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+
+    /* Banner */
+    .banner {
+      background: url("https://www.sce.edu.bt/wp-content/uploads/2021/06/banner.jpg") no-repeat center;
+      background-size: cover;
+      color: #fff;
+      padding: 60px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Main content */
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 50px;
+    }
+    .video-container {
+      flex: 1;
+      margin-right: 30px;
+    }
+    .greetings {
+      flex: 1;
+    }
+    .greetings h2 {
+      color: #004080;
+      margin-bottom: 10px;
+    }
+    .greetings p {
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      background: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+    <!-- Top bar -->
+    <div class="topbar">
+        <ul class="nav-links">
+          <li><a href="#">People</a></li>
+          <li><a href="#">Library (Intranet)</a></li>
+          <li><a href="#">Announcement</a></li>
+          <li><a href="#">RUB Policy Documents</a></li>
+          <li><a href="#">Downloads</a></li>
+          <li><a href="#">Help Desk</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main navigation -->
+    <div class="main-nav">
+        <div class="logo-container">
+          <img src="https://www.sce.edu.bt/wp-content/uploads/2025/05/SCE-LOGO-EDIT1.png" 
+               alt="SCE Logo" class="logo">
+        </div>
+
+        <div class="nav-section"><a href="#">ABOUT SCE</a><p>Who we are and what we do</p></div>
+        <div class="nav-section"><a href="programmes.html">PROGRAMMES</a><p>About the programmes we offer</p></div>
+        <div class="nav-section"><a href="#">DEPARTMENTS</a><p>Our academic departments</p></div>
+        <div class="nav-section"><a href="#">RESEARCH</a><p>Research & collaborations</p></div>
+        <div class="nav-section"><a href="#">ADMISSION</a><p>Eligibility & criteria</p></div>
+        <div class="nav-section">
+          <a href="#" class="btn-red">STRATEGIC PLAN</a>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+      Reporting Dates for the Autumn Semester 2025
+    </div>
+
+    <!-- Content -->
+    <div class="main-content">
+       <div class="video-container">
+         <iframe width="100%" height="315"
+                 src="https://www.youtube.com/embed/k3vnllIj4WE?si=_Hs_gCq94RdJG1Pi"
+                 frameborder="0" allowfullscreen></iframe>
+       </div>
+
+       <div class="greetings">
+           <h2>Greetings!</h2>
+           <p>
+             Samtse College of Education was founded by Bhutan's Third Dharma King Late His Majesty Jigme Dorji Wangchuck. 
+             Launched as a Teacher Training Institute on 29th May 1968, the institute commenced its educational journey with only 41 
+             students and a few teacher educators. Since its establishment the College has given the country's education system over 
+             5000 graduates with primary teaching certificate, bachelors, diploma, postgraduate diploma, and Masters qualifications. 
+             The rich and varied learning experiences we offer our students are inspired by our philosophical commitment to the wisdom 
+             of right View, right Contemplation and right Action which collectively can cause the arising of the right Result.
+           </p>
+       </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Samtse College of Education. All rights reserved.</p>
+    </footer>
+</body>
+</html>
